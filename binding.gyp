@@ -48,7 +48,7 @@
           }
         },
         "include_dirs" : [
-          "ffmpeg/ffmpeg-5.x-win64-shared/include"
+          "../ffmpeg/ffmpeg-5.x-win64-shared/include"
         ],
         "libraries": [
           "-l../ffmpeg/ffmpeg-5.x-win64-shared/lib/avcodec",
@@ -62,16 +62,16 @@
         ],
         "copies": [
             {
-              "destination": "build/Release/",
+              "destination": "Release/",
               "files": [
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avcodec-59.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avdevice-59.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avfilter-8.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avformat-59.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avutil-57.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/postproc-56.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/swresample-4.dll",
-                "ffmpeg/ffmpeg-5.x-win64-shared/bin/swscale-6.dll"
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/avcodec-59.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/avdevice-59.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/avfilter-8.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/avformat-59.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/avutil-57.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/postproc-56.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/swresample-4.dll",
+                "../ffmpeg/ffmpeg-5.x-win64-shared/bin/swscale-6.dll"
               ]
             }
           ]

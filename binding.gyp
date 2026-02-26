@@ -48,7 +48,7 @@
           }
         },
         "include_dirs" : [
-          "../ffmpeg/ffmpeg-5.x-win64-shared/include"
+          "ffmpeg/ffmpeg-5.x-win64-shared/include"
         ],
         "libraries": [
           "-l../ffmpeg/ffmpeg-5.x-win64-shared/lib/avcodec",

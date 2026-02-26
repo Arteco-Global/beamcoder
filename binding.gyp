@@ -64,7 +64,7 @@
             {
               "destination": "build/Release/",
               "files": [
-                "..\\ffmpeg\\ffmpeg-5.x-win64-shared\\bin\\avcodec-59.dll",
+                "ffmpeg/ffmpeg-5.x-win64-shared/bin/avcodec-59.dll",
                 "ffmpeg/ffmpeg-5.x-win64-shared/bin/avdevice-59.dll",
                 "ffmpeg/ffmpeg-5.x-win64-shared/bin/avfilter-8.dll",
                 "ffmpeg/ffmpeg-5.x-win64-shared/bin/avformat-59.dll",

@@ -5,7 +5,6 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "preinstall": "node install_ffmpeg.js",
     "install": "node-gyp rebuild",
     "test": "tape test/*.js",
     "lint": "eslint **/*.js",
